@@ -1,0 +1,102 @@
+
+*{
+    font-family: 'Arial', sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 2s linear;
+    background-color: #ffffe3;
+}
+
+html{
+    /*font-size: 62.5%;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;*/
+}
+
+.header{
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*padding: 1.5rem 7%;*/
+    padding: 1.0rem;
+    position: fixed;
+    top: 0;
+    left: 0; right: 0;
+    z-index: 1000;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header .logo img{
+    height: 2rem
+}
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 0.9rem;
+    color: #1e1f38;
+}
+.header .login{
+    color: #f16725;
+    font-size: 0.9rem;
+    text-emphasis: bold;
+}
+.header .btn{
+    max-width:70% ;
+}
+.header .btn a{
+    border: 5px solid #f16725;
+    background-color: #f16725;
+    color: white;
+    box-sizing: border-box;
+    padding: 12px;
+    margin: auto;
+    max-width: 100px;
+    max-height: 35px;
+    border-radius: 5px;
+    
+
+}
+.content{
+    width: 1200px;
+    margin: 0;
+    padding: 0px,
+    
+
+}
+/*.home{
+    margin: auto;
+}*/
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    margin: 20px;
+    /*font-size: 1.6rem;*/
+    top: 10px;
+
+}
+.content .para{
+    font-size: 0.9rem;
+    color: #f16725;
+}
+.content h1{
+    font-size: 3rem;
+    /*line-break: 3px;*/
+}
+.content h1 span{
+    color: #f16725;
+}
+.gmi img{
+    width: 431px;
+    height: 431px;
+    top: 270px;
+    left: 829px;
+    padding: 25px;
+    display: flex;
+}
